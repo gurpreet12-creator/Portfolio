@@ -1,11 +1,12 @@
 {
-  "homepage": "",
+  "homepage": "https://gurpreet12-creator.io.com/Portfolio",
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  
+    "predeploy":"npm run deploy",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
